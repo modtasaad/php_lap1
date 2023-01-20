@@ -37,7 +37,7 @@ echo "<br>";
  
 // <----------------------task 4----------------------->
 
-$age = 10;
+$age = 13;
 
 switch ($age) {
   case $age<5:
@@ -46,8 +46,11 @@ switch ($age) {
   case $age==5:
     echo "go to kindergarden";
     break;
-  default:
+    case $age>=6 && $age<=12:
     echo "go to gread : 4";
+    break;
+    default:
+    echo "your age is".$age;
 }
 
 ?>
